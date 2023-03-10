@@ -14,7 +14,7 @@ import streamlit as st
 
 from PIL import Image
 
-pickle_in = open("C:/Users/Admin/Desktop/deployment/RF_model.pkl","rb")
+pickle_in = open("https://github.com/rohitbachotkar/churn_prediction-/blob/main/RF_model.pkl","rb")
 loaded_model=pickle.load(pickle_in)
 
 def welcome():
